@@ -47,6 +47,7 @@ In the reduce phase, all the keys are grouped together and the values for simila
 ### use the below command for running jar files 
 hadoop jar filename.jar classname 
 
+### big.txt is the file used as input 
 
 
 
