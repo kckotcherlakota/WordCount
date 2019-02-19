@@ -43,3 +43,9 @@ In the reduce phase, all the keys are grouped together and the values for simila
 (is,1) 
 
 ​This is how the MapReduce word count program executes and outputs the number of occurrences of a word in any given input file. An important point to note during the execution of the WordCount example is that the mapper class in the WordCount program will execute completely on the entire input file and not just a single sentence. Suppose if the input file has 15 lines then the mapper class will split the words of all the 15 lines and form initial key value pairs for the entire dataset. The reducer execution will begin only after the mapper phase is executed successfully.
+
+### use hadoop jar filename.jar classname 
+for running jar files 
+
+
+
